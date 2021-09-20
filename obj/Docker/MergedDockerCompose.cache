@@ -1,0 +1,36 @@
+services:
+  database:
+    depends_on:
+      migrations:
+        condition: service_started
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: Dreamer1@
+    image: mcr.microsoft.com/mssql/server:latest
+    ports:
+    - published: 14331
+      target: 1433
+  migrations:
+    build:
+      context: C:\Users\Osezuaheo\source\repos\point
+      dockerfile: Migrations.DockerFile
+  webapplication1:
+    build:
+      context: C:\Users\Osezuaheo\source\repos\point
+      dockerfile: Dockerfile
+    depends_on:
+      database:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: upd
+    ports:
+    - published: 8000
+      target: 80
+    - target: 80
+    - target: 443
+    volumes:
+    - C:\Users\Osezuaheo\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\Osezuaheo\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+version: '3.4'

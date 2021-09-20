@@ -1,0 +1,19 @@
+{
+  "ConnectionStrings": {
+    //"CrownConnectionString": "server=(localdb)\\ProjectsV13;Database=EventsDb;Integrated Security=true;MultipleActiveResultSets=true;",
+    "Context": "Server=HQ-TECH-L62;Database=PointsDb;Integrated Security=true;MultipleActiveResultSets=true;"
+  },
+  "AppSettings": {
+    "Secret": "This is Winifred key used TO SIGN AND VERIFY JWT TOKENS"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Warning"
+    },
+    "Token": {
+      "Issuer": "issuer",
+      "Audience": "audience",
+      "Key": "2748EF6C-9858-4C8D-935E-20CC6EBB80A2"
+    }
+  }
+}

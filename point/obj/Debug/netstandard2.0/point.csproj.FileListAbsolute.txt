@@ -1,0 +1,9 @@
+C:\Users\Osezuaheo\source\repos\point\point\bin\Debug\netstandard2.0\point.deps.json
+C:\Users\Osezuaheo\source\repos\point\point\bin\Debug\netstandard2.0\point.dll
+C:\Users\Osezuaheo\source\repos\point\point\bin\Debug\netstandard2.0\point.pdb
+C:\Users\Osezuaheo\source\repos\point\point\obj\Debug\netstandard2.0\point.AssemblyInfoInputs.cache
+C:\Users\Osezuaheo\source\repos\point\point\obj\Debug\netstandard2.0\point.AssemblyInfo.cs
+C:\Users\Osezuaheo\source\repos\point\point\obj\Debug\netstandard2.0\point.csproj.CoreCompileInputs.cache
+C:\Users\Osezuaheo\source\repos\point\point\obj\Debug\netstandard2.0\point.dll
+C:\Users\Osezuaheo\source\repos\point\point\obj\Debug\netstandard2.0\point.pdb
+C:\Users\Osezuaheo\source\repos\point\point\obj\Debug\netstandard2.0\point.csprojAssemblyReference.cache
